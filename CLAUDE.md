@@ -53,6 +53,17 @@ git commit -m "Description of changes"
 git push origin main
 ```
 
+### Version Control Practices
+
+All work should be committed to Git and pushed to GitHub regularly with clean, descriptive commit messages. This ensures:
+
+1. Work is never lost if there are system issues
+2. Progress can be tracked and rolled back if needed
+3. Changes are properly documented with meaningful commit messages
+4. The latest work is always available on GitHub for backup
+
+Commit frequently during work sessions and always push changes before stopping work. Each commit should represent a logical unit of work with a clear, descriptive message.
+
 ## Architecture Notes
 
 This is a simple content repository without complex architecture. Files are standalone markdown documents that follow a consistent style pattern.
